@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectable_tab"
+    android:paddingTop="4dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitCenter"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_icon"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textSize="10dp"
+        tools:text="首页" />
+
+    <TextView
+        android:id="@+id/tv_notification_count"
+        style="@style/UnReadNum"
+        android:layout_alignTop="@id/iv_icon"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="-4dp"
+        android:layout_toEndOf="@id/tv_tab"
+        android:layout_toRightOf="@id/tv_tab"
+        android:textSize="10dp"
+        android:visibility="gone"
+        tools:text="128" />
+
+    <ImageView
+        android:id="@+id/ivRedPoint"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignTop="@id/iv_icon"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="-4dp"
+        android:layout_toEndOf="@id/tv_tab"
+        android:layout_toRightOf="@id/tv_tab"
+        android:src="@drawable/red_oval"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+
+    <style name="image_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">?android:attr/windowBackground</item>
+    </style>
+
+
+    <style name="UnReadNum">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/red_oval</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>
