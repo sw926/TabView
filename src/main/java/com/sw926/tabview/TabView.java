@@ -46,9 +46,9 @@ public class TabView extends RelativeLayout {
         mTabs = (LinearLayout) findViewById(R.id.custom_tabs);
         mLayoutContent = (FrameLayout) findViewById(R.id.layout_content);
 
-        TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.TabButtonView);
+        TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.TabView);
 
-        mTabTextColor = typedArray.getColorStateList(R.styleable.TabButtonView_tabButtonTextColor);
+        mTabTextColor = typedArray.getColorStateList(R.styleable.TabView_tabTextColor);
 
         typedArray.recycle();
 

@@ -5,4 +5,8 @@
         <attr name="tabText" format="reference|string" />
         <attr name="tabButtonTextColor" format="color|reference" />
     </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tabTextColor" format="color|reference" />
+    </declare-styleable>
 </resources>
